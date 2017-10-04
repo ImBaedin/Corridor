@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Corridor Digital</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Teko:300" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div id="page-wrap">
+            <div id="header-section" class="section">
+                <video autoplay loop id="bgvid" poster="poster.jpg">
+                    <source src="res/postervid.webm" type="video/webm">
+                    <source src="res/postervid.mp4" type="video/mp4">
+                    <div style='position:relative;padding-bottom:57%'><iframe src='https://gfycat.com/ifr/OpulentMeanHound' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+                </video>
+                <canvas id="video-grid"></canvas>
+                <div id="corridor-title" class="section-title animated-type">
+                    <img class="banner-title" src="res/banner.png" alt="">
+                </div>
+                <div id="corridor-sub-title" class="section-sub-title" style="display: none;">Making Awesome Videos</div>
+            </div>
+            <div class="section parallax-window" data-parallax="scroll" data-image-src="res/image1.jpg">
+                <div class="section-header">Latest Video</div>
+                <div id="latest-cont" class="sixteen-nine">
+                    <iframe id="latest-video" class="content" src="https://www.youtube.com/embed/0dG6HliC9OI" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="libs/grid.js"></script>
+        <script src="libs/parallax.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
