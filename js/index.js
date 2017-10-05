@@ -62,7 +62,9 @@ $(document).ready(function(){
 
     resizeCanvas();
 
-    $('.parallax-window').parallax();
+    $('.parallax-window').each(function(){
+        $(this).parallax();
+    });
 
     $('#corridor-title').one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function(e){
         $('#corridor-sub-title').fadeIn();
