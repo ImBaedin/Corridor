@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+    var documentHeight, documentWidth;
     
     var gridSize = 50;
 
@@ -28,6 +30,13 @@ $(document).ready(function(){
     });
 
     function resizeCanvas(){
+        if(navigator.userAgent.match(/(Android)/) ){
+            if(documentWidth == $(document).width()){
+                return false;
+            }
+        }
+        documentHeight = $(document).height();
+        documentWidth = $(document).width();
         var parent = $('#video-grid').parent();
 
         $('#video-grid').get(0).width = parent.width();
