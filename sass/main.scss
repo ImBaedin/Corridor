@@ -13,6 +13,20 @@
     color: $c-yellow;
 }
 
+#logo{
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: .2;
+    height: 90vh;
+    img{
+        height: 100%;
+        width: auto;
+    }
+}
+
 #video-grid{
     background-color: rgba(29,29,29,.4);
     z-index: 100;
@@ -109,6 +123,7 @@ video#bgvid {
 
 #stats{
     min-height: 750px;
+    background-color: rgba(0,0,0, .4);
 }
 .stat{
     padding-top: 20px;
