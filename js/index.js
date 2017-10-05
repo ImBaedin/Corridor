@@ -2,16 +2,16 @@ $(document).ready(function(){
 
     var documentHeight, documentWidth;
     
-    var gridSize = 50;
+    var gridSize = 25;
 
     var gridSet = {
         //lineColor: '#FEF101',
         lineColor: '#FFFFFF',
         rowLineCount: 20,
         columnLineCount: 32,
-        opacity: .3,
+        opacity: .1,
         lineDuration: 150,
-        interval: 50
+        interval: 10
     };
     
     var ctx = $('#video-grid').get(0).getContext('2d');
