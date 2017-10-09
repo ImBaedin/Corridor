@@ -5,7 +5,7 @@ $(document).ready(function(){
     var gridSize = 25;
 
     var gridSet = {
-        //lineColor: '#FEF101',
+        //lineColor: '#146DF5',
         lineColor: '#FFFFFF',
         rowLineCount: 20,
         columnLineCount: 32,
